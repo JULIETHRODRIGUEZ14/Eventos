@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 30px;
+    color: blue;
+
+}
+
+body{
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px white;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 300px;
+    background-color: pink;
+    
+    
+}
+.listaEventos2{
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 5px white;
+    margin: 0 auto;
+    background-color: pink;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 30px;
+    
+    
+}
+.nombre{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 0.5rem;
+    border-color: black;
+    box-shadow: 0px 0px 8px 5px white;
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    margin: 0.2rem;
+}
+
+.fecha{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 0.5rem;
+    border-color: black;    
+    box-shadow: 0px 0px 8px 5px white;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    margin: 0.2rem;
+    
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+    color: black;
+    background: blue;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+.eliminar {
+    background-color:blue;
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0px 10px ;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 5px white;
+}
+.evento {
+   display: flex;
+   align-items: center; 
+   justify-content: space-around;
+   background-color:pink;
+   border-radius: 1rem;
+   max-width: 500px;
+   margin: 0 auto;
+   box-shadow: 0px 0px 8px 5px white;
+   padding: 10px;
+   text-align: center;
+   
+}
+
+.diasFaltantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 30px;
+
+}
+.fechaEvento, .nombreEvento{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
